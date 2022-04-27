@@ -14,6 +14,7 @@ import { LoginMoringaComponent } from './login/login-moringa/login-moringa.compo
 import { LoginMoringaAdminComponent } from './login/login-moringa-admin/login-moringa-admin.component';
 import { LoginKemriAdminComponent } from './login/login-kemri-admin/login-kemri-admin.component';
 import { LoginDriverComponent } from './login/login-driver/login-driver.component';
+import { NavbarComponent } from './navigation-bar/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { LoginDriverComponent } from './login/login-driver/login-driver.componen
     LoginMoringaComponent,
     LoginMoringaAdminComponent,
     LoginKemriAdminComponent,
-    LoginDriverComponent
+    LoginDriverComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
